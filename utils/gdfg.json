@@ -1,0 +1,24 @@
+{
+  "user": {
+    "location": {
+      "position": [-6.074043, 36.686634],
+      "accuracy": 150,
+      "available": true,
+      "enabled": true
+    },
+    "payments": [
+      {
+        "id": "288ab646-4311-4188-9a3a-189136ee9266",
+        "end_user_id": "b1b9dbbf-4783-4df0-8663-e85c8b002273",
+        "payment_intent": "pi_1I6Iq7G3ynFNL3lFvBqQv7VH",
+        "tier": "Silver"
+      },
+      {
+        "id": "77025e71-978a-4f17-9492-46cf60f952dd",
+        "end_user_id": "b1b9dbbf-4783-4df0-8663-e85c8b002273",
+        "payment_intent": "pi_1I6IoPG3ynFNL3lFdx8SO4sa",
+        "tier": "Bronze"
+      }
+    ]
+  }
+}
