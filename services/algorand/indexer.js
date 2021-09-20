@@ -1,10 +1,12 @@
-const algosdk = require("algosdk");
-require("dotenv").config();
+const algosdk = require('algosdk');
+require('dotenv').config();
+
+// comment
 
 const server = process.env.INDEXER_URL;
-const port = "";
+const port = '';
 const token = {
-  "X-API-Key": process.env.PURESTAKE_TOKEN
+    'X-API-Key': process.env.PURESTAKE_TOKEN,
 };
 let algodIndexer = new algosdk.Indexer(token, server, port);
 
